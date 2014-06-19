@@ -1,12 +1,12 @@
-# revision 32103
+# revision 34243
 # category Package
 # catalog-ctan /language/korean/kotex-utf
-# catalog-date 2013-11-08 09:28:00 +0100
+# catalog-date 2014-02-26 23:03:13 +0100
 # catalog-license lppl1.3
 # catalog-version 2.0.1
 Name:		texlive-kotex-utf
 Version:	2.0.1
-Release:	6
+Release:	7
 Summary:	Typeset Hangul, coded in UTF-8
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/korean/kotex-utf
@@ -61,6 +61,7 @@ the ko.TeX bundle.
 %{_texmfdistdir}/tex/latex/kotex-utf/tex4ht/kosections-utf.4ht
 %doc %{_texmfdistdir}/doc/latex/kotex-utf/ChangeLog
 %doc %{_texmfdistdir}/doc/latex/kotex-utf/README
+%doc %{_texmfdistdir}/doc/latex/kotex-utf/README.md
 %doc %{_texmfdistdir}/doc/latex/kotex-utf/fig/allowbreak-dhucs.pdf
 %doc %{_texmfdistdir}/doc/latex/kotex-utf/fig/fntexp.pdf
 %doc %{_texmfdistdir}/doc/latex/kotex-utf/fig/fntnormal.pdf
