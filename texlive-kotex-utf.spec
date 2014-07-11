@@ -6,7 +6,7 @@
 # catalog-version 2.0.1
 Name:		texlive-kotex-utf
 Version:	2.0.1
-Release:	7
+Release:	8
 Summary:	Typeset Hangul, coded in UTF-8
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/korean/kotex-utf
