@@ -1,12 +1,6 @@
-# revision 34243
-# category Package
-# catalog-ctan /language/korean/kotex-utf
-# catalog-date 2014-02-26 23:03:13 +0100
-# catalog-license lppl1.3
-# catalog-version 2.0.1
 Name:		texlive-kotex-utf
-Version:	2.0.1
-Release:	10
+Version:	2.1.2
+Release:	1
 Summary:	Typeset Hangul, coded in UTF-8
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/korean/kotex-utf
@@ -35,44 +29,8 @@ the ko.TeX bundle.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/kotex-utf/contrib/dhucs-cmap.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/contrib/dhucs-enumerate.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/contrib/dhucs-enumitem.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/contrib/dhucs-gremph.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/contrib/dhucs-interword.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/contrib/dhucs-paralist.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/contrib/dhucs-sectsty.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/contrib/dhucs-setspace.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/contrib/dhucs-trivcj.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/contrib/dhucs-ucshyper.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/contrib/dhucsfn.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/contrib/kotex-logo.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/contrib/kotex-varioref.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/dhucs-nanumfont.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/dhucs.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/hfontspec.default
-%{_texmfdistdir}/tex/latex/kotex-utf/kosections-utf.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/kotex.cfg
-%{_texmfdistdir}/tex/latex/kotex-utf/kotexutf.sty
-%{_texmfdistdir}/tex/latex/kotex-utf/lucenc.dfu
-%{_texmfdistdir}/tex/latex/kotex-utf/lucuhcmj.fd
-%{_texmfdistdir}/tex/latex/kotex-utf/tex4ht/dhucs.4ht
-%{_texmfdistdir}/tex/latex/kotex-utf/tex4ht/dhucs.cfg
-%{_texmfdistdir}/tex/latex/kotex-utf/tex4ht/kosections-utf.4ht
-%doc %{_texmfdistdir}/doc/latex/kotex-utf/ChangeLog
-%doc %{_texmfdistdir}/doc/latex/kotex-utf/README
-%doc %{_texmfdistdir}/doc/latex/kotex-utf/README.md
-%doc %{_texmfdistdir}/doc/latex/kotex-utf/fig/allowbreak-dhucs.pdf
-%doc %{_texmfdistdir}/doc/latex/kotex-utf/fig/fntexp.pdf
-%doc %{_texmfdistdir}/doc/latex/kotex-utf/fig/fntnormal.pdf
-%doc %{_texmfdistdir}/doc/latex/kotex-utf/fig/histkotex.jpg
-%doc %{_texmfdistdir}/doc/latex/kotex-utf/fig/linebreaktest.pdf
-%doc %{_texmfdistdir}/doc/latex/kotex-utf/fig/testdhucsallowbreak.pdf
-%doc %{_texmfdistdir}/doc/latex/kotex-utf/kotexdoc.pdf
-%doc %{_texmfdistdir}/doc/latex/kotex-utf/kotexdoc.tex
-%doc %{_texmfdistdir}/doc/latex/kotex-utf/sample-finemath-setup.tex
-%doc %{_texmfdistdir}/doc/latex/kotex-utf/yettext.tex
-%doc %{_texmfdistdir}/doc/latex/kotex-utf/yettext.txt
+%{_texmfdistdir}/tex/latex/kotex-utf
+%doc %{_texmfdistdir}/doc/latex/kotex-utf
 
 #-----------------------------------------------------------------------
 %prep
