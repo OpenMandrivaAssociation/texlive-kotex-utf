@@ -1,12 +1,12 @@
 Name:		texlive-kotex-utf
-Version:	2.1.2
-Release:	2
+Version:	63690
+Release:	1
 Summary:	Typeset Hangul, coded in UTF-8
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/korean/kotex-utf
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/kotex-utf.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/kotex-utf.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/kotex-utf.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/kotex-utf.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -20,12 +20,12 @@ UTF-8. The bundle (of class and associated packages) belongs to
 the ko.TeX bundle.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -34,7 +34,7 @@ the ko.TeX bundle.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
