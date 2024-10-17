@@ -3,7 +3,7 @@ Version:	63690
 Release:	2
 Summary:	Typeset Hangul, coded in UTF-8
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/korean/kotex-utf
+URL:		https://www.ctan.org/tex-archive/language/korean/kotex-utf
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/kotex-utf.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/kotex-utf.doc.r%{version}.tar.xz
